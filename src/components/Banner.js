@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/avatar.svg";
+import Image from "../assets/avatar.png";
 import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../variants";
@@ -20,7 +20,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
             >
-              KAROL <span>CZOCH</span>
+              ALPAKO <span> LAMA </span>
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -29,14 +29,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className=" text-white mr-4">I am a</span>
+              <span className=" text-white mr-4">Jestem...</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Piękna!",
                   2000,
-                  "Designer",
+                  "Cudowna!",
                   2000,
-                  "Youtuber",
+                  "Wspaniała!",
                   2000,
                 ]}
                 speed={50}
@@ -50,11 +50,10 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className=" text-[12px] lg:text-[30px] mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+              udomowionym południowoamerykańskim, trawożernym gatunkiem ssaka
+              parzystokopytnego z rodziny wielbłądowatych
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -63,9 +62,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
+              <button className="btn btn-lg">Napisz do mnie</button>
               <a href="#" className="text-gradient btn-link">
-                My Portfolio
+                Wiecej o nas
               </a>
             </motion.div>
             <motion.div

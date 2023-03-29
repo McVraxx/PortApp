@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,8 @@ const Header = () => {
           <a href="#">
             <img src={Logo} alt="" />
           </a>
-          <button className="btn btn-sm">Work with me</button>
+
+          <button className="btn btn-sm">Wiecej o nas</button>
         </div>
       </div>
     </header>

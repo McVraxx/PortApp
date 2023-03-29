@@ -5,22 +5,18 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Kiedy je oswojono?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "Learn more",
+      "Ponad 6000 lat temu, starożytni Inkowie w Peru oswoili te zwierzęta dla ich delikatnego polaru. Inkowie cenili włókna Alpaca ponad złoto.",
   },
   {
-    name: "Digital Marketing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "Learn more",
+    name: "Ile ważą?",
+    description: "Alpaki ważą od 50 do 100 kilogramów.",
   },
   {
-    name: "Product Branding",
+    name: "Ile żyją?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "Learn more",
+      "Ponieważ są one całkowicie oswojonym zwierzęciem, alpaki mogą żyć dość długo. Jeśli są dobrze wychowane, to mogą żyć nawet do 20 lat.",
   },
 ];
 
@@ -34,13 +30,13 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="flex-1 bg-services bg-contain bg-no-repeat h-[640px]  bg-top"
           >
-            <h2 className="h2 text-accent mb-6">What i Do. </h2>
+            <h2 className="h2 text-accent mb-6">Ciekawostki o alpakach</h2>
             <h3 className="h3 max-w-[455px] mb-16 ">
-              I'm freelance Front-end Developer with over 5 years of experience.
+              Dlaczego jesteśmy takie ciekawe...
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm">Zapraszamy do odwiedzin!</button>
           </motion.div>
 
           <motion.div

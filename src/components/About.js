@@ -18,7 +18,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px]  bg-top"
           ></motion.div>
           <motion.div
             variants={fadeIn("left", 0.3)}
@@ -27,15 +27,15 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About me</h2>
+            <h2 className="h2 text-accent">Troszkę informacji o nas...</h2>
             <h3 className="h3 mb-4">
-              I'm freelance Front-end Developer with over 5 years of experience.
+              Jesteśmy profesjonalnalnymi hodowcami alpak odmiany Huacaya.
             </h3>
             <p className="mb-6">
-              {" "}
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+              Poza byciem właścicielami tych wspaniałych przyjemniaków dajemy
+              również innym okazję do zapoznania się z tym niezbyt jeszcze w
+              Polsce gatunkiem zwierząt które często budzą uśmiech na naszych
+              twarzach.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10- mb-12">
               <div>
@@ -43,28 +43,30 @@ const About = () => {
                   {InView ? <CountUp start={0} end={15} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of <br />
-                  Experience
+                  Ilośc <br />
+                  Zwierzaków
                 </div>
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
+                  {InView ? (
+                    <CountUp start={0} end={1000} duration={10} />
+                  ) : null}
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Project <br />
-                  completed
+                  Ilość wywołanych <br />
+                  uśmiechów
                 </div>
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={12} duration={3} /> : null}{" "}
-                  k+
+                  {InView ? <CountUp start={0} end={150} duration={8} /> : null}
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br />
-                  Clients
+                  Ilość oplutych <br />
+                  odwiedzających
                 </div>
               </div>
             </div>

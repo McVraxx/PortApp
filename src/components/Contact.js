@@ -16,10 +16,10 @@ const Contact = () => {
           >
             <div>
               <h4 className="text-x1 uppercase text-accent font-medium mb-2 tracking-wide">
-                Get in touch
+                Napisz do nas !
               </h4>
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Lets'work <br /> together!
+                Czas na <br /> ODZWIEDZINY !
               </h2>
             </div>
           </motion.div>
@@ -41,7 +41,7 @@ const Contact = () => {
               placeholder="Your name"
             />
             <textarea className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"></textarea>
-            <button className="btn btn-lg"> Send message</button>
+            <button className="btn btn-lg"> Wyślij wiadomość </button>
           </motion.div>
         </div>
       </div>

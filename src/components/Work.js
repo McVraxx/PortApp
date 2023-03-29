@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/portfolio-img1.jpg";
+import Img2 from "../assets/portfolio-img2.jpg";
+import Img3 from "../assets/portfolio-img3.jpg";
 
 const Work = () => {
   return (
@@ -19,14 +19,13 @@ const Work = () => {
           >
             <div>
               <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Work
+                Zajecia <br />z alapakami !
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s,Lorem Ipsum has sdfdssdfdsfsdfdsf,
+                Miedzy innymi oferujemy poniższe atrakcję z naszymi futrzanymi
+                podopiecznymi...
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <button className="btn btn-sm">Zobacz wiecej</button>
             </div>
 
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -39,11 +38,13 @@ const Work = () => {
               />
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Desing</span>
+                <span className="text-gradient">Karmienie alpaki</span>
               </div>
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">
+                  Relaksujące karmienie alpak naszymi smakołykami
+                </span>
               </div>
             </div>
           </motion.div>
@@ -65,11 +66,13 @@ const Work = () => {
               />
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Desing</span>
+                <span className="text-gradient">Spacer z alpaką</span>
               </div>
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">
+                  30 minutowy spacer z alpaką po terenie hodowli
+                </span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -82,11 +85,17 @@ const Work = () => {
               />
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Desing</span>
+                <span className="text-gradient">
+                  Oglądanie terenu hodowli i zwierzaków
+                </span>
               </div>
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-2 transition-all duration-700 z-50">
+                <span className="text-3x1 text-white">
+                  Zwiedzanie lub też pomoc w codziennym funkcjonowaniu hodowli
+                  przy opowieści o ich potrzebach i zapewne mimowolnym głaskaniu
+                  futrzaków!
+                </span>
               </div>
             </div>
           </motion.div>
