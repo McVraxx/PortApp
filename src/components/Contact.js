@@ -15,7 +15,7 @@ const Contact = () => {
             className="flex-1 flex  justify-start items-center"
           >
             <div>
-              <h4 className="text-x1 uppercase text-accent font-medium mb-2 tracking-wide">
+              <h4 className="text-x1 uppercase font-medium mb-2 tracking-wide">
                 Napisz do nas !
               </h4>
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
@@ -31,16 +31,16 @@ const Contact = () => {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6"
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green-400 transition-all"
               type="text"
               placeholder="Your email"
             />
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-green-400 transition-all"
               type="text"
               placeholder="Your name"
             />
-            <textarea className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"></textarea>
+            <textarea className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-green-400 transition-all resize-none mb-12"></textarea>
             <button className="btn btn-lg"> Wyślij wiadomość </button>
           </motion.div>
         </div>

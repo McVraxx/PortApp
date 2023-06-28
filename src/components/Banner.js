@@ -40,7 +40,7 @@ const Banner = () => {
                   2000,
                 ]}
                 speed={50}
-                className="text-accent"
+                className=""
                 wrapper="span"
                 repeat={Infinity}
               />

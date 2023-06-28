@@ -32,7 +32,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 bg-services bg-contain bg-no-repeat h-[640px]  bg-top"
           >
-            <h2 className="h2 text-accent mb-6">Ciekawostki o alpakach</h2>
+            <h2 className="h2  mb-6">Ciekawostki o alpakach</h2>
             <h3 className="h3 max-w-[455px] mb-16 ">
               Dlaczego jesteśmy takie ciekawe...
             </h3>

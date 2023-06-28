@@ -27,7 +27,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">Troszkę informacji o nas...</h2>
+            <h2 className="h2 ">Troszkę informacji o nas...</h2>
             <h3 className="h3 mb-4">
               Jesteśmy profesjonalnalnymi hodowcami alpak odmiany Huacaya.
             </h3>
@@ -71,10 +71,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <button className="btn btn-lg">Napisz do nas!</button>
             </div>
           </motion.div>
         </div>
